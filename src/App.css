@@ -3,3 +3,8 @@
 html {
   font-family: "Funnel Sans", sans-serif;
 }
+.partial-border {
+	background:
+		linear-gradient(rgb(231, 231, 231), rgb(231, 231, 231)) top / 175px 1px;
+	background-repeat: no-repeat;
+}
