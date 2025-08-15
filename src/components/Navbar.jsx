@@ -38,7 +38,7 @@ export default function Navbar() {
     }
 
     return (
-        <nav className='sticky top-0 flex bg-white border-b-1 border-gray-100 justify-between md:py-2'>
+        <nav className='sticky top-0 flex bg-white border-b-1 border-gray-100 justify-between md:py-2 z-10'>
             <Link to="/" className='place-content-center'>
                 <img src="/nr-logo.png" className="ml-4 h-5 md:h-8" />
             </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
                                 autoplay={false}
                             ></lottie-player>
                         </div>
-                        <div className={`absolute right-[-8px] top-[30px] z-10 w-screen mt-2  border-gray-100 rounded-sm bg-white transition-all border-b-1 ${isOpen ? 'h-80 duration-1300' : 'h-0 invisible pointer-events-none duration-500'}`}>
+                        <div className={`absolute right-[-8px] top-[30px] z-10 w-screen mt-2  border-gray-100 rounded-sm bg-white transition-all border-b-1 ${isOpen ? 'h-80 duration-800' : 'h-0 invisible pointer-events-none duration-500'}`}>
                             <ul className="text-black h-full">
                                 <li className='h-1/4 flex justify-center items-center'>
                                     <Link to="/" onClick={closeNav} className={`block font-medium text-md transition-all ${isOpen ? 'opacity-100 duration-900' : 'opacity-0 duration-100'}`}>

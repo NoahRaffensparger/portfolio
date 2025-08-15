@@ -8,3 +8,50 @@ html {
 		linear-gradient(rgb(231, 231, 231), rgb(231, 231, 231)) top / 175px 1px;
 	background-repeat: no-repeat;
 }
+.section-1-border{
+	background:
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) top / 260px 2px no-repeat,
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) bottom / 260px 2px no-repeat;
+}
+.section-2-border{
+	background:
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) bottom / 260px 2px no-repeat;
+}
+.section-3-border{
+		background:
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) bottom / 260px 2px no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+.section-1-border{
+	background:
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) top / 290px 2px no-repeat,
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) bottom / 290px 2px no-repeat;
+}
+.section-2-border{
+	background:
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) bottom / 290px 2px no-repeat;
+}
+.section-3-border{
+		background:
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) bottom / 290px 2px no-repeat;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.section-1-border{
+	background:
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) top / 290px 2px no-repeat,
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) bottom / 290px 2px no-repeat;
+}
+.section-2-border{
+	background: 
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) top / 290px 2px no-repeat,
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) bottom / 290px 2px no-repeat;
+}
+.section-3-border{
+	background: 
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) top / 290px 2px no-repeat,
+		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) bottom / 290px 2px no-repeat;
+}
+}
