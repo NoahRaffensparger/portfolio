@@ -23,7 +23,7 @@ export default function Footer() {
                         <a href="https://github.com/NoahRaffensparger" target="_blank">
                             <img src="/github.png" className="h-7"/>
                         </a>
-                        <a href="https://github.com/NoahRaffensparger" target="_blank">
+                        <a href="https://www.linkedin.com/in/noah-raffensparger-6b793937a/" target="_blank">
                             <img src="/linkedin.png" className="h-7"/>
                         </a>
                         <a href="mailto:noahtraff@gmail.com">
