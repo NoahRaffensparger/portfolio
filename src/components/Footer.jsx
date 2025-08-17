@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Footer() {
     return (
         <>
@@ -13,10 +15,10 @@ export default function Footer() {
                     </div>
 
                     <nav className="flex gap-6 text-sm">
-                        <a href="/" className="hover:text-gray-500 transition-all duration-200">Home</a>
-                        <a href="/projects" className="hover:text-gray-500 transition-all duration-200">Projects</a>
-                        <a href="/about" className="hover:text-gray-500 transition-all duration-200">About</a>
-                        <a href="/contact" className="hover:text-gray-500 transition-all duration-200">Contact</a>
+                        <Link to="/" className="hover:text-gray-500 transition-all duration-200">Home</Link>
+                        <Link to="/projects" className="hover:text-gray-500 transition-all duration-200">Projects</Link>
+                        <Link to="/about" className="hover:text-gray-500 transition-all duration-200">About</Link>
+                        <Link to="/contact" className="hover:text-gray-500 transition-all duration-200">Contact</Link>
                     </nav>
 
                     <div className="flex gap-4">

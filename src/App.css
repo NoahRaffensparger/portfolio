@@ -55,3 +55,13 @@ html {
 		linear-gradient(rgb(136, 136, 136), rgb(139, 139, 139)) bottom / 290px 2px no-repeat;
 }
 }
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-fade {
+  animation: fadeOut 3s forwards;
+}
