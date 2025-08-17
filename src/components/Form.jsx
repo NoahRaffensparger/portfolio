@@ -14,7 +14,7 @@ export default function InquiryForm() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
-        const response = await fetch('http://localhost:5000/submit', {
+        const response = await fetch('https://portfolio-cfqh.onrender.com/submit', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
