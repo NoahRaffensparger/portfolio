@@ -46,7 +46,7 @@ export default function Navbar() {
                 <Link to="/" className={`hidden md:inline hover:text-black transition-all duration-200 ${currentPage === '/' ? '' : 'text-black/50'}`}>home</Link>
                 <Link to="/projects" className={`hidden md:inline hover:text-black transition-all duration-200 ${currentPage === '/projects' ? '' : 'text-black/50'}`}>projects</Link>
                 <Link to="/about" className={`hidden md:inline hover:text-black transition-all duration-200 ${currentPage === '/about' ? '' : 'text-black/50'}`}>about me</Link>
-                <Link to="/contact" className={`hidden md:inline hover:text-black transition-all duration-200 ${currentPage === '/about' ? '' : 'text-black/50'}`}>contact</Link>
+                <Link to="/contact" className={`hidden md:inline hover:text-black transition-all duration-200 ${currentPage === '/contact' ? '' : 'text-black/50'}`}>contact</Link>
 
                 <div className='flex items-center justify-center md:hidden'>
                     <div className="relative inline-block text-center" ref={dropdownRef}>
