@@ -8,7 +8,7 @@ export default function Footer() {
 
 
                     <div className="flex flex-col md:flex-row items-center gap-1 md:gap-3">
-                        <img src="/nr-logo.png" alt="Logo" className="h-5 mx-auto md:mx-0" />
+                        <img src="/nr-log-sm.png" alt="noah raffensparger small logo" className="h-5 mx-auto md:mx-0" />
                         <p className="text-sm text-gray-500">
                             © 2025 Noah Raffensparger. All Rights Reserved.
                         </p>
@@ -23,13 +23,13 @@ export default function Footer() {
 
                     <div className="flex gap-4">
                         <a href="https://github.com/NoahRaffensparger" target="_blank">
-                            <img src="/github.png" className="h-7"/>
+                            <img src="/github.png" alt='github' className="h-7"/>
                         </a>
                         <a href="https://www.linkedin.com/in/noah-raffensparger-6b793937a/" target="_blank">
-                            <img src="/linkedin.png" className="h-7"/>
+                            <img src="/linkedin.png"  alt='linkedin' className="h-7"/>
                         </a>
                         <a href="mailto:noahtraff@gmail.com">
-                            <img src="/email.png" className="h-7"/>
+                            <img src="/email.png" alt='email' className="h-7"/>
                         </a>
                     </div>
 

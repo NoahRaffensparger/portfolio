@@ -40,7 +40,7 @@ export default function Navbar() {
     return (
         <nav className='sticky top-0 flex bg-white border-b-1 border-gray-100 justify-between md:py-2 z-10'>
             <Link to="/" className='place-content-center'>
-                <img src="/nr-logo.png" className="ml-4 h-5 md:h-8" />
+                <img src="/nr-log-sm.png" alt="noah raffensparger small logo" className="ml-4 h-5 md:h-8" />
             </Link>
             <div className='flex flex-row justify-end md:justify-around w-2/4 my-2 py-2 px-2 rounded-xl md:bg-gray-200'>
                 <Link to="/" className={`hidden md:inline hover:text-black transition-all duration-200 ${currentPage === '/' ? '' : 'text-black/50'}`}>home</Link>

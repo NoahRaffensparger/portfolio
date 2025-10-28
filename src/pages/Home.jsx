@@ -13,7 +13,15 @@ export default function Home() {
                             <Link to="/contact" className='px-3 py-[7px] bg-gray-800 rounded text-white'>contact me</Link>
                         </div>
                     </div>
-                    <img className='w-7/8 max-w-[375px] sm:max-w-1/2 self-center' src="/noah2.png"></img>
+
+                    <img
+                        class="w-7/8 max-w-[375px] sm:max-w-1/2 self-center"
+                        src="/noah2.webp"
+                        alt="Noah"
+                        fetchpriority="high"
+                        width="375"
+                        height="375"
+                    />
                 </div>
             </div>
             <div className='bg-gray-200 py-12 px-4'>
@@ -36,7 +44,7 @@ export default function Home() {
                         <div className='mb-2 w-full flex gap-2'>
                             <img src="/react.png" alt="react" className="h-8" />
                             <img src="/vite.png" alt="vite" className="h-8" />
-                            <img src="/tailwind.png" alt="tailwind" className="h-8" />
+                            <img src="/tailwind-sm.webp" alt="tailwind" className="h-8" />
                             <img src="/bootstrap.png" alt="bootstrap" className="h-8" />
                         </div>
                         <h3 className="text-3xl font-semibold mb-2 md:text-4xl">front-end</h3>
