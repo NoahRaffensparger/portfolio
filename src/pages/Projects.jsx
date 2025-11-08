@@ -13,7 +13,7 @@ export default function Projects() {
               <Swiper2 />
             </div>
             <h4 className="font-semibold">Description</h4>
-            <p>An app I am building in React that lets users rate and share music. It is a similar concept to Letterboxd. It uses Spotify's API for all of the music data. </p>
+            <p>An app I am building in React that lets users rate and share music. It uses Spotify's API for all of the music data. </p>
             <h4 className="font-semibold">Tech</h4>
             <p>React, auth, API</p>
             <a href="https://github.com/NoahRaffensparger/music" target="_blank" className="text-blue-500">Visit repo</a>
