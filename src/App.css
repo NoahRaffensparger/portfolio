@@ -65,3 +65,6 @@ html {
 .animate-fade {
   animation: fadeOut 3s forwards;
 }
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+}
