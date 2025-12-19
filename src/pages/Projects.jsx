@@ -8,6 +8,18 @@ export default function Projects() {
         <div className="flex flex-col lg:flex-row lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:items-start lg:mx-12 items-center justify-center">
 
           <div className="bg-white rounded-xl max-w-[650px] mx-4 px-4 py-4 flex flex-col gap-4 mt-6">
+            <h3 className="text-2xl font-semibold">Domain Expansion</h3>
+            <a href="https://github.com/NoahRaffensparger/domain-expansion" target="_blank">
+              <img src="/domain-expansion-email-screenshot.png" className="shadow-lg rounded-xl border-1 border-gray-300"></img>
+            </a>
+            <h4 className="font-semibold">Description</h4>
+            <p>Code that cross-references top Google searches for a given day and available domains. This app uses SerpAPI and NameAPI.</p>
+            <h4 className="font-semibold">Tech</h4>
+            <p>API, server routes</p>
+            <a href="https://github.com/NoahRaffensparger/domain-expansion" target="_blank" className="text-blue-500">Visit repo</a>
+          </div>
+
+          <div className="bg-white rounded-xl max-w-[650px] mx-4 px-4 py-4 flex flex-col gap-4 mt-6">
             <h3 className="text-2xl font-semibold">Untitled Music App (In Development)</h3>
             <div className='flex justify-center'>
               <Swiper2 />
@@ -32,17 +44,6 @@ export default function Projects() {
             <p className="pt-4 border-t-1 border-gray-300">I built this website for a coworker who owns his own consulting business. I focused on modern, mobile-first design and simple UX/UI.</p>
           </div>
 
-          <div className="bg-white rounded-xl max-w-[650px] mx-4 px-4 py-4 flex flex-col gap-4 mt-6">
-            <h3 className="text-2xl font-semibold">PSQL Server Routes</h3>
-            <a href="https://github.com/NoahRaffensparger/PSQL-server-routes/tree/main/" target="_blank">
-              <img src="/PSQL-screenshot.PNG" className="shadow-lg rounded-xl border-1 border-gray-300"></img>
-            </a>
-            <h4 className="font-semibold">Description</h4>
-            <p>An application showing the correct server routes for a PSQL database. Routes for GET, PUT, POST, and DELETE are all executed functionally.</p>
-            <h4 className="font-semibold">Tech</h4>
-            <p>PSQL, Node.js</p>
-            <a href="https://github.com/NoahRaffensparger/PSQL-server-routes/tree/main/" target="_blank" className="text-blue-500">Visit repo</a>
-          </div>
         </div>
 
       </div>
