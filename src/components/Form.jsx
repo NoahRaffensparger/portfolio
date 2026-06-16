@@ -23,8 +23,8 @@ export default function InquiryForm() {
                 message,
                 phone_number,
             }),
+            
         });
-
         const data = await response.json();
         console.log(data.message);
         setLoading(false);
