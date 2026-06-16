@@ -5,10 +5,10 @@ const nodemailer = require("nodemailer");
 require("dotenv").config();
 
 const app = express(); 
-app.options(/.*/, cors());
+
 const allowedOrigins = [
-  "http://localhost:5173/contact",
-  "https://noahraffensparger.com/contact"
+  "http://localhost:5173",
+  "https://noahraffensparger.com"
 ];
 
 app.use(cors({
