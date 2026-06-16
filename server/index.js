@@ -5,10 +5,23 @@ const nodemailer = require("nodemailer");
 require("dotenv").config();
 
 const app = express(); 
+app.options("*", cors());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://noahraffensparger.com"
+];
 
 app.use(cors({
-  origin: "https://noahraffensparger.com",
+  origin: function (origin, callback) {
+    if (!origin) return callback(null, true); // allow mobile apps / curl
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+    return callback(new Error("Not allowed by CORS"));
+  },
+  credentials: true
 }));
+
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
