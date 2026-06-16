@@ -9,6 +9,7 @@ const images = [
     '/noah-wedding.jpg',
     '/cats.jpg',
     '/boat.jpg',
+    '/etta.JPEG',
 ];
 
 export default function ImageSwiper() {
